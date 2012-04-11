@@ -6,12 +6,19 @@ PATH
 GEM
   specs:
     addressable (2.2.7)
+    columnize (0.3.2)
     json (1.6.5)
     launchy (2.1.0)
       addressable (~> 2.2.6)
+    linecache (0.43)
     mime-types (1.17.2)
     rest-client (1.6.1)
       mime-types (>= 1.16)
+    ruby-debug (0.10.4)
+      columnize (>= 0.1)
+      ruby-debug-base (~> 0.10.4.0)
+    ruby-debug-base (0.10.4)
+      linecache (>= 0.3)
 
 PLATFORMS
   ruby
@@ -20,4 +27,5 @@ DEPENDENCIES
   json
   launchy
   rest-client
+  ruby-debug
   vfnetapis!
